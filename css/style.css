@@ -106,15 +106,13 @@
 }
 /* ==================upsell====== */
 .upsell-section {
-  /* background: url(img/background.svg); */
+  background: url(img2/background.svg);
   height: 320px;
   width: 1280px;
   color: rgba(17, 17, 17, 1);
   margin-bottom: 120px;
 }
-.upsell-section {
-  background: url(img2/background.svg);
-}
+
 .upsell-section-article {
   color: rgba(17, 17, 17, 1);
   text-align: left;
@@ -136,15 +134,15 @@
   line-height: 30px;
 }
 /* ==========================press-section=== */
-
-.press-section-container {
+.press-section {
+  margin-bottom: 120px;
+}
+main .press-section-container {
   height: 49px;
   width: 1280px;
 
   display: flex;
   justify-content: space-between;
-
-  margin-bottom: 120px;
 }
 /* ===========================showcase======= */
 .showcase-article-container {
@@ -173,6 +171,7 @@
 /* cards===== */
 .showcase-cards-container {
   display: flex;
+
   gap: 40px;
   margin-bottom: 120px;
   overflow: hidden;
@@ -296,10 +295,12 @@
 
 .footer-container {
   display: flex;
-  gap: 427px;
+  gap: 200px;
+}
+.footer-container-left {
+  /* flex-grow: 3; */
 }
 .footer-container-left img {
-  height: 36px;
   margin-bottom: 30px;
 }
 .footer-text {
@@ -313,7 +314,7 @@
 .footer-icons .icon {
   font-size: 20px;
   color: rgba(153, 153, 153, 1);
-  margin-right: 16px;
+  margin-right: 10px;
 }
 .footer-icons .icon-facebook {
   color: rgb(241, 237, 237);
@@ -367,4 +368,5 @@
   display: flex;
   justify-content: space-between;
   margin-top: 123px;
+  padding-bottom: 71px;
 }

@@ -1,10 +1,8 @@
 @media screen and (max-width: 428px) {
-  body {
+  body .container {
     padding-right: 32px;
     padding-left: 32px;
-    padding-top: 32px;
     width: 428px;
-    /* overflow-x: hidden; */
   }
   main .container {
     width: 450px;
@@ -59,8 +57,9 @@
     margin-bottom: 0;
   }
   /* upsel sec===== */
-
+  main .upsell-section {
   }
+
   main .upsell-section-article {
     padding-top: 100px;
     padding-left: 60px;
@@ -80,14 +79,16 @@
   main .icon-hidden {
     display: none;
   }
-  main .press-section-container {
+  body main .press-section-container {
     width: 440px;
+    height: 190px;
+    display: flex;
     flex-wrap: wrap;
-    padding-bottom: 96px;
-    gap: 10px;
+    padding-bottom: 50px;
+    gap: 5px;
   }
   main .press-logo {
-    height: 50px;
+    height: 40px;
     margin-bottom: 30px;
   }
   /* cards sec===== */
@@ -99,11 +100,11 @@
   }
   /* footer upsell============ */
   main .footer-upsell-section {
-    height: 630px;
+    height: 700px;
   }
   main .footer-upsell-container {
     width: 428px;
-    height: 630px;
+    height: 700px;
     position: relative;
     overflow-x: hidden;
   }
@@ -146,3 +147,18 @@
     display: none;
   }
 }
+/* @media screen and (min-width: 760px) {
+  body {
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 80px;
+  }
+}
+
+@media screen and (max-width: 428px) {
+  body {
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 32px;
+  }
+} */
