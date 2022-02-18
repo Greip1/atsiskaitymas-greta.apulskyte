@@ -78,4 +78,25 @@
     font-weight: 400;
     line-height: 30px;
   }
+  /* ========press sec========= */
+  main .icon-hidden {
+    display: none;
+  }
+  main .press-section-container {
+    width: 440px;
+    flex-wrap: wrap;
+    padding-bottom: 96px;
+    gap: 10px;
+  }
+  main .press-logo {
+    height: 50px;
+    margin-bottom: 30px;
+  }
+  /* cards sec===== */
+
+  main .showcase-article-container {
+    width: 425px;
+    height: 202px;
+    margin-bottom: 0;
+  }
 }
