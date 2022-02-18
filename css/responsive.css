@@ -28,4 +28,37 @@
     display: flex;
     justify-content: space-between;
   }
+  /* hero============================== */
+  main .hero-section {
+    margin-bottom: 40px;
+  }
+  main .hero-section-container {
+    width: 425px;
+    position: relative;
+  }
+  main .hero-section-article {
+    z-index: 1;
+  }
+
+  main .hero-section-title {
+    width: 230px;
+    font-size: 48px;
+    height: 30%;
+  }
+  main .hero-section-text {
+    line-height: 30px;
+    width: 230px;
+    height: 150px;
+  }
+  main .graphic {
+    position: absolute;
+    z-index: -1;
+    top: -50px;
+    left: 440px;
+    transform: translateX(-50%);
+    height: 100%;
+  }
+  main .hero-section-btn {
+    margin-bottom: 0;
+  }
 }
