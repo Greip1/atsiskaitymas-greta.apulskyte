@@ -132,3 +132,14 @@
   font-weight: 400;
   line-height: 30px;
 }
+/* ==========================press-section=== */
+
+.press-section-container {
+  height: 49px;
+  width: 1280px;
+
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 120px;
+}
