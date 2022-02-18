@@ -245,3 +245,43 @@
   color: rgba(119, 119, 119, 1);
   padding-bottom: 24px;
 }
+/* =============== footer-upsell section==================== */
+
+.footer-upsell-section {
+  height: 554px;
+  border-top: 3px solid rgba(238, 238, 238, 1);
+  border-bottom: 3px solid rgba(238, 238, 238, 1);
+}
+.footer-upsell-container {
+  display: flex;
+  gap: 202px;
+}
+.footer-upsell-container img {
+  margin-top: 85px;
+  height: 467px;
+}
+.footer-upsell-section-article h5 {
+  padding-top: 120px;
+  margin-bottom: 24px;
+}
+.footer-upsell-section-article {
+  height: 310px;
+  width: 651px;
+}
+
+.footer-upsell-section-title {
+  font-size: 56px;
+  font-weight: 900;
+  line-height: 68px;
+
+  margin-bottom: 24px;
+  color: rgba(17, 17, 17, 1);
+}
+.footer-upsell-section-text {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+
+  color: rgba(85, 85, 85, 1);
+  margin-bottom: 40px;
+}
