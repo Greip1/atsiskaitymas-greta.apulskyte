@@ -1,0 +1,31 @@
+@media screen and (max-width: 428px) {
+  body {
+    padding-right: 32px;
+    padding-left: 32px;
+    padding-top: 32px;
+    width: 428px;
+    /* overflow-x: hidden; */
+  }
+  main .container {
+    width: 450px;
+    overflow-x: hidden;
+  }
+
+  header .nav-container-logo img {
+    height: 150px;
+    width: 100px;
+  }
+  header .nav-container-nav {
+    display: none;
+  }
+  header .header-hamburger {
+    font-size: 24px;
+    display: inline;
+    height: 22px;
+    color: rgba(153, 153, 153, 1);
+  }
+  header .nav-container {
+    display: flex;
+    justify-content: space-between;
+  }
+}
