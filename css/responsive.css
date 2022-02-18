@@ -61,4 +61,21 @@
   main .hero-section-btn {
     margin-bottom: 0;
   }
+  /* upsel sec===== */
+
+  main .upsell-section-article {
+    padding-top: 100px;
+    padding-left: 60px;
+    height: 102px;
+    width: 380px;
+  }
+  .upsell-section-title {
+    width: 360px;
+    margin-bottom: 24px;
+  }
+  .upsell-section-text {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+  }
 }
