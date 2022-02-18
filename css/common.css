@@ -1,0 +1,15 @@
+body {
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 80px;
+    font-family: "Inter", sans-serif;
+  
+    background: #ffffff;
+  }
+  
+  @media screen and (min-width: 428px){
+    body {
+      padding-left: 32px;
+      padding-right: 32px;
+      padding-top: 32px;
+  }
