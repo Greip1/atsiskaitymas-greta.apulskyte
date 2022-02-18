@@ -285,3 +285,83 @@
   color: rgba(85, 85, 85, 1);
   margin-bottom: 40px;
 }
+/* ===============footer section================ */
+.footer-section {
+  padding-top: 122px;
+  margin-bottom: 71px;
+}
+
+.footer-container {
+  display: flex;
+  gap: 427px;
+}
+.footer-container-left img {
+  height: 36px;
+  margin-bottom: 30px;
+}
+.footer-text {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+
+  color: rgba(85, 85, 85, 1);
+  margin-bottom: 32px;
+}
+.footer-icons .icon {
+  font-size: 20px;
+  color: rgba(153, 153, 153, 1);
+  margin-right: 16px;
+}
+.footer-icons .icon-facebook {
+  color: rgb(241, 237, 237);
+  background-color: rgba(153, 153, 153, 1);
+  border-radius: 50%;
+  padding: 5px 8px;
+}
+/* ======right footer====== */
+.footer-container-right {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-areas: "about nft contact social";
+
+  gap: 80px;
+}
+.about {
+  grid-area: about;
+}
+
+.nft {
+  grid-area: nft;
+}
+.contact {
+  grid-area: contact;
+}
+.social {
+  grid-area: social;
+}
+.footer-right-title {
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 19px;
+  letter-spacing: 0.1em;
+
+  color: rgba(85, 85, 85, 1);
+  margin-bottom: 28px;
+}
+.footer-right-text {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  color: rgba(85, 85, 85, 1);
+  margin-bottom: 20px;
+}
+/* footer bottom======== */
+.footer-container-bottom {
+  color: rgba(153, 153, 153, 1);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 123px;
+}
