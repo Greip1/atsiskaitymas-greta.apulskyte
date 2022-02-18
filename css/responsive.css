@@ -99,4 +99,25 @@
     height: 202px;
     margin-bottom: 0;
   }
+  /* footer upsell============ */
+  main .footer-upsell-section {
+    height: 630px;
+  }
+  main .footer-upsell-container {
+    width: 428px;
+    height: 630px;
+    position: relative;
+    overflow-x: hidden;
+  }
+  main .footer-upsell-section-article {
+    z-index: 1;
+  }
+  main .upsell-footer-image {
+    position: absolute;
+    z-index: -1;
+    top: 160px;
+    left: 310px;
+    transform: translateX(-50%);
+    height: 100%;
+  }
 }
