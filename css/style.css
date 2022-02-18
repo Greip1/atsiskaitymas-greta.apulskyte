@@ -2,7 +2,7 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css");
 @import "reset.css";
 @import "common.css";
-@import "responsive-mobile.css";
+@import "responsive.css";
 /* ================================================= */
 /* DESKTOP UZDUOTYJE 1440PX, MOBILE - 428PX */
 /* ================================================ */
@@ -106,11 +106,14 @@
 }
 /* ==================upsell====== */
 .upsell-section {
-  background: url(img/background.svg);
+  /* background: url(img/background.svg); */
   height: 320px;
   width: 1280px;
   color: rgba(17, 17, 17, 1);
   margin-bottom: 120px;
+}
+.upsell-section {
+  background: url(img2/background.svg);
 }
 .upsell-section-article {
   color: rgba(17, 17, 17, 1);
