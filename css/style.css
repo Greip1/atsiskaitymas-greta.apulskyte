@@ -167,3 +167,81 @@
   font-weight: bold;
   text-decoration: underline;
 }
+/* cards===== */
+.showcase-cards-container {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 120px;
+  overflow: hidden;
+  width: 1280px;
+}
+.container-background {
+  background: rgba(238, 238, 238, 1);
+  border-radius: 16px;
+  height: 400px;
+  width: 290px;
+}
+.card-text {
+  display: flex;
+}
+.card-text-left {
+  padding: 24px;
+  text-align: left;
+  flex-basis: 2;
+}
+.card-gloop-title {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 12px;
+
+  color: rgba(255, 129, 57, 1);
+  margin-bottom: 12px;
+}
+.card-name {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+
+  color: rgba(17, 17, 17, 1);
+  margin-bottom: 12px;
+}
+
+.card-number {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  color: rgba(119, 119, 119, 1);
+}
+.card-text-right {
+  padding-top: 24px;
+  padding-right: 23px;
+
+  text-align: right;
+}
+.card-text-right img {
+  height: 22px;
+}
+.card-topbid-title {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 12px;
+
+  color: rgba(119, 119, 119, 1);
+  margin-bottom: 12px;
+}
+.card-price {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+
+  color: rgba(17, 17, 17, 1);
+  margin-bottom: 12px;
+}
+.card-days {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+
+  color: rgba(119, 119, 119, 1);
+  padding-bottom: 24px;
+}
