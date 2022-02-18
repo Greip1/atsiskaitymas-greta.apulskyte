@@ -104,3 +104,31 @@
   position: absolute;
   overflow: hidden;
 }
+/* ==================upsell====== */
+.upsell-section {
+  background: url(img/background.svg);
+  height: 320px;
+  width: 1280px;
+  color: rgba(17, 17, 17, 1);
+  margin-bottom: 120px;
+}
+.upsell-section-article {
+  color: rgba(17, 17, 17, 1);
+  text-align: left;
+
+  padding-top: 154px;
+  padding-left: 64px;
+  height: 102px;
+  width: 620px;
+}
+.upsell-section-title {
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 48px;
+  margin-bottom: 24px;
+}
+.upsell-section-text {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
