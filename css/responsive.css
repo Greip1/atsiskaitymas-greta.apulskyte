@@ -120,4 +120,31 @@
     transform: translateX(-50%);
     height: 100%;
   }
+  /* footer========= */
+  footer .footer-section {
+    width: 428px;
+  }
+  footer .footer-container {
+    /* overflow-x: hidden; */
+    width: 428px;
+    display: block;
+  }
+  footer .footer-container-left {
+    margin-bottom: 60px;
+  }
+
+  footer .footer-container-right {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "about nft"
+      "contact social";
+
+    gap: 100px;
+  }
+  footer .footer-container-bottom {
+    padding-bottom: 36px;
+  }
+  .footer-bottom-right {
+    display: none;
+  }
 }
