@@ -8,3 +8,28 @@
 /* ================================================ */
 
 /* ====header================== */
+.nav-container-nav {
+  display: flex;
+}
+.header-hamburger {
+  display: none;
+}
+
+.nav-container {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 36px;
+  margin-bottom: 182px;
+}
+.nav-container-nav a {
+  color: rgba(85, 85, 85, 1);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-left: 28px;
+}
+.nav-container-nav span {
+  color: rgba(255, 57, 152, 1);
+}
